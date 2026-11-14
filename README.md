@@ -6,7 +6,8 @@ A sleek, glassmorphic to-do list that lives **only in memory**. No `localStorage
 
 ## Features
 
-- Add, complete, edit inline (double-click or ✎), and delete tasks, with small animations
+- Add, complete, edit inline (double-click or ✎), and delete tasks, with smooth micro-animations
+- **Reorder tasks** via the 6-dot drag handle (mouse & touch) or with `Alt + ↑ / ↓` keyboard shortcuts (works across All, Active, and Completed views)
 - Filter tabs (All / Active / Completed) and **Clear Completed**
 - Light/Dark theme that follows your OS and can be switched manually (resets on refresh)
 - **Export** as `.json` (`id`, `text`, `completed`) or `.txt` Markdown checklist (`- [ ]` / `- [x]`), with a date-stamped filename
@@ -19,6 +20,7 @@ A sleek, glassmorphic to-do list that lives **only in memory**. No `localStorage
 | Shortcut | Action |
 | --- | --- |
 | `/` or `Ctrl/⌘ + K` | Focus the new-task input |
+| `Alt + ↑ / ↓` | Move focused task up or down |
 | `Ctrl/⌘ + S` | Download the current list as JSON |
 | `Enter` / `Esc` (while editing) | Save / cancel the edit |
 | `Esc` | Close the import prompt or export menu |
